@@ -1,5 +1,5 @@
-## Functional Enrichment Analysis of Ovarian Cancer scRNA-seq Data
-#Project Overview
+# Functional Enrichment Analysis of Ovarian Cancer scRNA-seq Data
+##Project Overview
 This project analyzed single-cell RNA sequencing (scRNA-seq) data from ovarian cancer tissue samples. The aim was to identify cellular heterogeneity by clustering cells and to explore functional enrichment of each cluster through Gene Ontology, KEGG pathways, and Reactome databases. This analysis provides insights into the biological roles of diverse cell populations within the tumor microenvironment and highlights mechanisms relevant to ovarian cancer progression, immune response, and therapy resistance.
 #Dataset and Analysis Pipeline
 Dataset: scRNA-seq data from ovarian cancer samples (filtered and quality controlled).
