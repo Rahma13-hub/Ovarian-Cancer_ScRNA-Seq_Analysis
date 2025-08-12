@@ -126,11 +126,13 @@ for (cl in names(cluster_genes)) {
   enriched = enrichr(genes, dbs)
   results_list[[cl]] = enriched
 }
-# Export enrichment results as CSV files
+# Export enrichment results as CSV file
 for (cl in names(results_list)) {
   for (db in dbs) {
     file_name = paste0("Cluster_", cl, "_", db, "_Enrichment.csv")
     write.csv(results_list[[cl]][[db]], file_name, row.names = FALSE)
   }
 }
+# Export top 10 markers results as CSV file
 write.csv(top10.markers, file = "top10_markers_all_clusters.csv", row.names = FALSE)
+
