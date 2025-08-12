@@ -13,10 +13,11 @@ Annotation: Clusters renamed based on marker genes.
 ## Files
 
 It contains the following main files:
+### Large files
+Due to files size limitations on Github, the raw data and seurat RDS files are hosted on Google Drive:
+-Raw data file(.h5): [https://drive.google.com/file/d/1McZd9qtiZtnifpAx0rpRvLr8LB9mvpp3/view?usp=drive_link]
 
--Raw data file
-
--Seurat data file
+-Seurat RDS file: [https://drive.google.com/file/d/1ObSyUB8dA5Tsa8BKUob03rVAix6D6ENC/view?usp=drive_link]
 
 -Top markers
 
