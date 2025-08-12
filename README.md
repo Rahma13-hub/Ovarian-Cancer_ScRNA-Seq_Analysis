@@ -11,11 +11,17 @@ Clustering: Identified 16 clusters (0 to 15) representing distinct cell types wi
 
 Annotation: Clusters renamed based on marker genes.
 ## Files
+
 It contains the following main files:
+
 -Raw data file
+
 -Seurat data file
+
 -Top markers
+
 -Enrichmnent Results
+
 -Plots
 
 ## Visualization
