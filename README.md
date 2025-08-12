@@ -22,99 +22,99 @@ Below are key visualizations representing the main steps and findings from the s
 5. Complex Heatmap of Top Marker Genes per Cluster: Heatmap illustrating the scaled expression of the top 10 marker genes in each cluster. 
 
 
-##Cluster-wise Functional Interpretation
+## Cluster-wise Functional Interpretation
 
-## Cluster 0 – Cancer-associated Fibroblasts:
+### Cluster 0 – Cancer-associated Fibroblasts:
 
 -Involved in extracellular matrix remodeling, immune regulation, and tumor stroma formation.
 
 -Cancer Relevance: Supports tumor growth and invasion by modifying the tumor microenvironment and mediating interactions with immune cells.
 
-## Cluster 1 – Ciliated Epithelial Cells
+### Cluster 1 – Ciliated Epithelial Cells
 
 -Cells specialized in fluid movement and mucociliary clearance.
 - Key Processes: Cilium organization and motility.
 -Cancer Relevance: Reflects presence of normal or reactive epithelial cells within ovarian tissue, potentially affected by tumor-induced changes.
 
-## Cluster 2 – Proliferating Tumor Cells
+### Cluster 2 – Proliferating Tumor Cells
 
 -Actively dividing cancer cells with high cell cycle and DNA replication activity
 -Key Processes: Cell cycle regulation, mitotic spindle organization, DNA replication. 
 -Cancer Relevance: Represents aggressive tumor cell populations driving tumor growth.
 
-## Cluster 3 – Antigen-presenting Myeloid Cells
+### Cluster 3 – Antigen-presenting Myeloid Cells
 
 -Immune cells presenting antigens to T cells, activating immune responses.
 -Key Processes: Antigen processing and presentation, immune activation pathways.
 -Cancer Relevance: Reflects tumor-infiltrating immune cells involved in immune surveillance or immune escape.
 
-## Cluster 4 – Inflammatory Stromal Cells
+### Cluster 4 – Inflammatory Stromal Cells
 
 -Cells involved in inflammation and cytokine signaling within the tumor stroma.
 -Key Processes: Cytokine-mediated signaling, immune activation.
 -Cancer Relevance: Contributes to inflammatory tumor microenvironment, potentially promoting cancer progression or immune suppression.
 
-## Cluster 5 – Endothelial Cells
+### Cluster 5 – Endothelial Cells
 
 -Cells forming blood vessels, supporting angiogenesis.
 -Key Processes: Vascular development, angiogenesis.
 -Cancer Relevance: Supports tumor vascularization, essential for nutrient supply and metastasis.
 
-## Cluster 6 – Smooth Muscle Cells
+### Cluster 6 – Smooth Muscle Cells
 
 -Contractile cells involved in tissue structure and vessel support.
 -Key Processes: Muscle contraction, extracellular matrix interaction.
 -Cancer Relevance: Present in tumor-associated vasculature and stromal remodeling.
 
-## Cluster 7 – Epithelial (Tumor) Cells with Stress Response
+### Cluster 7 – Epithelial (Tumor) Cells with Stress Response
 
 -Tumor cells with active heat shock response, ER stress adaptation, and senescence regulation.
 -Key Processes: Protein folding, HSF1 signaling, TGF-beta and MAPK pathways.
 -Cancer Relevance: Enables tumor cell survival under proteotoxic stress and contributes to therapy resistance.
 
-## Cluster 8 – Tumor-associated Macrophages and Nutrient Metabolism
+### Cluster 8 – Tumor-associated Macrophages and Nutrient Metabolism
 
 -Macrophages modulating immune responses and remodeling extracellular matrix.
 -Key Processes: Endocytosis, iron metabolism, immune modulation, ECM turnover.
 -Cancer Relevance: Supports immune evasion, tumor invasion, and metabolic adaptation.
 
-## Cluster 9 – Activated Cytotoxic T Cells and Immune Regulation.
+### Cluster 9 – Activated Cytotoxic T Cells and Immune Regulation.
 
 -Effector T cells and NK cells mediating anti-tumor cytotoxicity and immune regulation.
 -Key Processes: NK cell activation, T cell receptor signaling, cytokine-JAK-STAT pathway, immune checkpoint pathways.
 -Cancer Relevance: Central in tumor immune surveillance and immune escape mechanisms.
 
-## Cluster 10 – Ovarian Tumor Epithelial Cells with Developmental and Hormonal Signatures
+### Cluster 10 – Ovarian Tumor Epithelial Cells with Developmental and Hormonal Signatures
 
 -Epithelial tumor cells expressing developmental transcription factors and hormonal regulation genes.
 -Key Processes: Kidney/epithelial differentiation, circadian rhythm, complement cascade, mucin biosynthesis.
 -Cancer Relevance: Reflects tumor cells maintaining epithelial identity and remodeling immune and metabolic pathways for survival.
 
-## Cluster 11 – Pericytes / Vascular Smooth Muscle Cells with Apoptosis and ECM Remodeling
+### Cluster 11 – Pericytes / Vascular Smooth Muscle Cells with Apoptosis and ECM Remodeling
 
 -Cells involved in vessel stabilization, apoptosis regulation, and extracellular matrix metabolism.
 -Key Processes: Mitochondrial apoptosis, glycosaminoglycan metabolism, Notch and PDGF signaling.
 -Cancer Relevance: Supports angiogenesis, tumor-stroma interactions, and survival under therapy stress.
 
-## Cluster 12 – Basal Epithelial Cells with Barrier and Signaling Functions
+### Cluster 12 – Basal Epithelial Cells with Barrier and Signaling Functions
 
 -Epithelial basal cells involved in skin and epithelial development, water transport, and cell signaling.
 -Key Processes: Keratinization, aquaporin-mediated water transport, FGFR3 signaling, immune response modulation.
 -Cancer Relevance: Linked to epithelial barrier integrity, signaling pathways that contribute to tumor growth and immune interactions.
 
-## Cluster 13 – Neuroendocrine-like Epithelial Cells and GPCR Signaling
+### Cluster 13 – Neuroendocrine-like Epithelial Cells and GPCR Signaling
 
 -Cells expressing prostanoid and retinoic acid receptors, involved in cell signaling and tissue homeostasis.
 -Key Processes: GPCR signaling, tight junction organization, retinoic acid metabolism, protein glycosylation.
 -Cancer Relevance: May influence tumor microenvironment communication, cell adhesion, and metabolic regulation.
 
-## Cluster 14 – Interferon-responsive Immune Cells
+### Cluster 14 – Interferon-responsive Immune Cells
 
 -Immune cells with active antiviral and interferon-stimulated gene expression.
 -Key Processes: Type I interferon signaling, antiviral defense mechanisms, cytokine signaling.
 -Cancer Relevance: Reflects innate immune activation against viral components and tumor immune modulation.
 
-## Cluster 15 – Multi-ciliated Epithelial Cells and Immune Regulation
+### Cluster 15 – Multi-ciliated Epithelial Cells and Immune Regulation
 
 -Epithelial cells with cilia involved in immune signaling and tissue integrity.
 -Key Processes: Chromatin modification, cytokine signaling, hematopoiesis, tight junction maintenance.
