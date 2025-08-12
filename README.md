@@ -6,6 +6,7 @@ Dataset: scRNA-seq data from ovarian cancer samples (filtered and quality contro
 Tools: Seurat (clustering, dimensionality reduction, visualization), enrichR (functional enrichment analysis).
 Clustering: Identified 16 clusters (0 to 15) representing distinct cell types within ovarian cancer tissue.
 Annotation: Clusters renamed based on marker genes.
+
 ##Visualization
 Below are key visualizations representing the main steps and findings from the single-cell RNA-seq analysis of the ovarian cancer sample:
 1. UMAP Plot of Cell Clusters: shows the clustering of single cells into biologically meaningful groups identified in the ovarian cancer tissue. Each cluster is labeled with its inferred cell type.
