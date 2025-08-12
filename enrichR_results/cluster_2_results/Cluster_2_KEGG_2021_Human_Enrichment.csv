@@ -1,0 +1,4 @@
+"Term","Overlap","P.value","Adjusted.P.value","Old.P.value","Old.Adjusted.P.value","Odds.Ratio","Combined.Score","Genes"
+"One carbon pool by folate","1/20",0.0099572476243862,0.0276557869621033,0,0,116.789473684211,538.335775363175,"TYMS"
+"Homologous recombination","1/41",0.0203162941970357,0.0276557869621033,0,0,55.4166666666667,215.921734165782,"RAD54L"
+"Pyrimidine metabolism","1/56",0.0276557869621033,0.0276557869621033,0,0,40.2727272727273,144.495334893691,"TYMS"
