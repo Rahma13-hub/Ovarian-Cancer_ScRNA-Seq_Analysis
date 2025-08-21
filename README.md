@@ -27,18 +27,39 @@ Due to files size limitations on Github, the raw data and seurat RDS files are h
 -Plots
 
 ## Visualization
-
 Below are key visualizations representing the main steps and findings from the single-cell RNA-seq analysis of the ovarian cancer sample:
 
 1. UMAP Plot of Cell Clusters: shows the clustering of single cells into biologically meaningful groups identified in the ovarian cancer tissue. Each cluster is labeled with its inferred cell type.
+  
+2. Highly Variable Genes Plot: This figure displays the top highly variable genes used for downstream dimensionality reduction and clustering.
 
-2. Quality Control (QC) Plot: Violin plot showing the distribution of number of detected genes per cell (nFeature_RNA), total counts per cell (nCount_RNA), and percentage of mitochondrial gene expression (%MT).
+3. PCA Elbow Plot: The elbow plot guides the selection of the number of principal components to include in the clustering analysis.
 
-3. Highly Variable Genes Plot: This figure displays the top highly variable genes used for downstream dimensionality reduction and clustering.
+4. Complex Heatmap of Top Marker Genes per Cluster: Heatmap illustrating the scaled expression of the top 10 marker genes in each cluster. 
+### GO Enrichment
+#### Cluster 0 – Cancer-associated Fibroblasts
+[![Cluster 0 GO](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)
 
-4. PCA Elbow Plot: The elbow plot guides the selection of the number of principal components to include in the clustering analysis.
+#### Cluster 5 – Endothelial Cells
+[![Cluster 5 GO](plots/Cluster_5_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_5_GO_Biological_Process_2021_Enrichment_dotplot.png)
 
-5. Complex Heatmap of Top Marker Genes per Cluster: Heatmap illustrating the scaled expression of the top 10 marker genes in each cluster. 
+#### Cluster 2 – Proliferating Tumor Cells
+[![Cluster 2 GO](plots/Cluster_2_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_2_GO_Biological_Process_2021_Enrichment_dotplot.png)
+
+#### Cluster 9 – Activated Cytotoxic T Cells
+[![Cluster 9 GO](plots/Cluster_9_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_9_GO_Biological_Process_2021_Enrichment_dotplot.png)
+
+
+### KEGG Enrichment
+
+#### Cluster 2 – Proliferating Tumor Cells
+[![Cluster 2 KEGG](plots/Cluster_2_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_2_KEGG_2021_Human_Enrichment_dotplot.png)
+
+#### Cluster 7 – Stress Response Tumor Cells
+[![Cluster 7 KEGG](plots/Cluster_7_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_7_KEGG_2021_Human_Enrichment_dotplot.png)
+
+#### Cluster 9 – Activated Cytotoxic T Cells
+[![Cluster 9 KEGG](plots/Cluster_9_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_9_KEGG_2021_Human_Enrichment_dotplot.png)
 
 
 ## Cluster-wise Functional Interpretation
