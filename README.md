@@ -27,15 +27,18 @@ Due to files size limitations on Github, the raw data and seurat RDS files are h
 -Plots
 
 ## Visualization
-Below are key visualizations representing the main steps and findings from the single-cell RNA-seq analysis of the ovarian cancer sample:
+### Variable Features
+[![Variable Feature Plot](plots/Variable_Feature_plot.png)](plots/Variable_Feature_plot.png)
 
-1. UMAP Plot of Cell Clusters: shows the clustering of single cells into biologically meaningful groups identified in the ovarian cancer tissue. Each cluster is labeled with its inferred cell type.
-  
-2. Highly Variable Genes Plot: This figure displays the top highly variable genes used for downstream dimensionality reduction and clustering.
+### UMAP (PC_1)
+[![UMAP PC_1](plots/umapPC_1.png)](plots/umapPC_1.png)
 
-3. PCA Elbow Plot: The elbow plot guides the selection of the number of principal components to include in the clustering analysis.
+### Heatmap
+[![Heatmap](plots/heatmap.png)](plots/heatmap.png)
 
-4. Complex Heatmap of Top Marker Genes per Cluster: Heatmap illustrating the scaled expression of the top 10 marker genes in each cluster. 
+### Complex Heatmap
+[![Complex Heatmap](plots/complex_heatmap.png)](plots/complex_heatmap.png)
+
 ### GO Enrichment
 #### Cluster 0 – Cancer-associated Fibroblasts
 [![Cluster 0 GO](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)
