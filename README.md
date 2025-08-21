@@ -26,43 +26,49 @@ Due to files size limitations on Github, the raw data and seurat RDS files are h
 
 -Plots
 
-## Visualization
-### Variable Features
-[![Variable Feature Plot](plots/Variable_Feature_plot.png)](plots/Variable_Feature_plot.png)
+# Results Visualization
+## Functional Enrichment Dotplots
 
-### UMAP (PC_1)
-[![UMAP PC_1](plots/umapPC_1.png)](plots/umapPC_1.png)
+### GO Biological Processes
+- Cluster 0
+  [![Cluster_0_GO](plots/Cluster_0_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)](plots/Cluster_0_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)
 
-### Heatmap
-[![Heatmap](plots/heatmap.png)](plots/heatmap.png)
+- Cluster 2
+  [![Cluster_2_GO](plots/Cluster_2_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)](plots/Cluster_2_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)
 
-### Complex Heatmap
-[![Complex Heatmap](plots/complex_heatmap.png)](plots/complex_heatmap.png)
+- Cluster 5
+  [![Cluster_5_GO](plots/Cluster_5_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)](plots/Cluster_5_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)
 
-### GO Enrichment
-#### Cluster 0 – Cancer-associated Fibroblasts
-[![Cluster 0 GO](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_0_GO_Biological_Process_2021_Enrichment_dotplot.png)
+- Cluster 9
+  [![Cluster_9_GO](plots/Cluster_9_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)](plots/Cluster_9_GO_Biological_Process_2021_Enrichment.csv_dotplot.png)
 
-#### Cluster 5 – Endothelial Cells
-[![Cluster 5 GO](plots/Cluster_5_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_5_GO_Biological_Process_2021_Enrichment_dotplot.png)
+### KEGG Pathways
+- Cluster 2
+  [![Cluster_2_KEGG](plots/Cluster_2_KEGG_2021_Human_Enrichment.csv_dotplot.png)](plots/Cluster_2_KEGG_2021_Human_Enrichment.csv_dotplot.png)
 
-#### Cluster 2 – Proliferating Tumor Cells
-[![Cluster 2 GO](plots/Cluster_2_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_2_GO_Biological_Process_2021_Enrichment_dotplot.png)
+- Cluster 7
+  [![Cluster_7_KEGG](plots/Cluster_7_KEGG_2021_Human_Enrichment.csv_dotplot.png)](plots/Cluster_7_KEGG_2021_Human_Enrichment.csv_dotplot.png)
 
-#### Cluster 9 – Activated Cytotoxic T Cells
-[![Cluster 9 GO](plots/Cluster_9_GO_Biological_Process_2021_Enrichment_dotplot.png)](plots/Cluster_9_GO_Biological_Process_2021_Enrichment_dotplot.png)
+- Cluster 9
+  [![Cluster_9_KEGG](plots/Cluster_9_KEGG_2021_Human_Enrichment.csv_dotplot.png)](plots/Cluster_9_KEGG_2021_Human_Enrichment.csv_dotplot.png)
 
 
-### KEGG Enrichment
+---
 
-#### Cluster 2 – Proliferating Tumor Cells
-[![Cluster 2 KEGG](plots/Cluster_2_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_2_KEGG_2021_Human_Enrichment_dotplot.png)
+## Basic Visualization Plots
 
-#### Cluster 7 – Stress Response Tumor Cells
-[![Cluster 7 KEGG](plots/Cluster_7_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_7_KEGG_2021_Human_Enrichment_dotplot.png)
+- Variable Features
+  [![Variable_Feature_plot](plots/Variable_Feature_plot.png)](plots/Variable_Feature_plot.png)
 
-#### Cluster 9 – Activated Cytotoxic T Cells
-[![Cluster 9 KEGG](plots/Cluster_9_KEGG_2021_Human_Enrichment_dotplot.png)](plots/Cluster_9_KEGG_2021_Human_Enrichment_dotplot.png)
+- UMAP
+  [![UMAP](plots/umap.png)](plots/umap.png)
+
+- PC_1 Heatmap
+  [![PC_1 Heatmap](plots/PC_1heatmap.png)](plots/PC_1heatmap.png)
+
+- Complex Heatmap
+  [![Complex Heatmap](plots/complex_heatmap.png)](plots/complex_heatmap.png)
+
 
 
 ## Cluster-wise Functional Interpretation
